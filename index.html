@@ -12,117 +12,121 @@
         <div class="judul">
             <h1>KEBUTUHAN<br> 
             <highlight>DARAH</highlight> UPD RSKD</h1>
-            <input type="date" id="input-tanggal" name="tanggal"> 
+            <p id="nama-hari">[isi tanggal] 📅</p>
+            <input type="date" id="input-tanggal" name="tanggal" style="display: none;"> 
         </div>
         <div>
-            <table border="1">
+            <table class="tabel-darah" border="1">
                 <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th class="warnagd">GOLONGAN DARAH</th>
+                    <th class="warnatr">TROMBOSIT</th>
+                    <th class="warnaprc">PRC</th>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="goldar">A+</td>
+                    <td><input type="text" id="tc"></td>
+                    <td><input type="text" id="prc"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="goldar">B+</td>
+                    <td><input type="text" id="tc"></td>
+                    <td><input type="text" id="prc"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="goldar">O+</td>
+                    <td><input type="text" id="tc"></td>
+                    <td><input type="text" id="prc"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td class="goldar">AB+</td>
+                    <td><input type="text" id="tc"></td>
+                    <td><input type="text" id="prc"></td>
                 </tr>
             </table>
         </div>
     </section>
-    <br>
     <hr>
-    <br>
     <section class="hal-2">
         <div class="judul">
             <h2>10 PENDONOR TERBANYAK<br>
             <highlight>PERIODE TAHUN 2025</highlight></h2>
         </div>
         <div>
-            <table border="2">
+            <table id="tabel-pendonor" border="1">
                 <tr>
-                    <th></th>
-                    <th></th>
-                    <th></th>
+                    <th>NO</th>
+                    <th>NAMA PENDONOR</th>
+                    <th>JUMLAH DONOR</th>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
                 </tr>
                 <tr>
-                    <td></td>
-                    <td></td>
-                    <td></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
+                    <td><input type="text"></td>
                 </tr>
             </table>
         </div>
         <div>
-            <video src="#" type="video/mp4">Donor Darah</video>
+            <video controls>
+                <source src="#" type="video/mp4">
+                Donor Darah
+            </video>
             <h1>TERIMAKASIH UNTUK PARA PENDONOR UPD RSKD</h1>
         </div>  
     </section>
-    <br>
     <hr>
-    <br>
     <section class="hal-3">
         <div class="judul">
-            <video src="#" type="video/mp4">Donor Darah</video>
-            <h1><highlight>Kegiatan</highlight> UPD RSKD</h1>
+            <video controls>
+                <source src="#" type="video/mp4">
+                Donor Darah
+            </video>
+            <h1><highlight>Kegiatan</highlight><br>
+                 UPD RSKD</h1>
             <div>
                 <h2>MAU NGADAIN DONOR DILINGKUNGAN ANDA?<br>
                 <highlight> KAMI SIAP DATANG!</highlight></h2>           
@@ -130,12 +134,14 @@
             <div>
                 <a href="#">NOMOR WA : TRI HARTANTI</a>
             </div>
-
-
-
+        </div>
     </section>
 
+    <script src="/assets/js/app.js"></script>
+    <footer>
+        <br>
+        <hr>
 
-
+    </footer>
 </body>
 </html>
