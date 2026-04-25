@@ -60,6 +60,9 @@ main{
     align-items: center;
 }
 
+main img{
+    width: 20px;
+}
 .container-card{
     display: flex;
     flex-direction: column;
@@ -83,3 +86,4 @@ main{
     display: flex;
     justify-content: center;
 }
+
