@@ -121,7 +121,7 @@ th{
 }
 
 .goldar{
-    color: rgb(205, 3, 3);
+    color: rgb(255, 255, 255);
     text-shadow: -6px 5px 5px  rgb(0, 0, 0);
     text-align: center;
     font-weight: 900;
@@ -155,22 +155,6 @@ th{
     background: transparent;
 }
 
-.goldar.a{
-    color:yellow;
-}
-
-.goldar.b{
-    color:rgb(196, 0, 0);
-}
-
-.goldar.o{
-    color:rgb(60, 60, 252)
-}
-
-.goldar.ab{
-    color:rgb(255, 255, 255)
-}
-
 .teks-judul2{
     color: gold;
 }
@@ -193,8 +177,8 @@ th{
     table-layout: fixed; /* tambah ini */
 }
 
-#tabel-pendonor th:nth-child(1) { width: 13%; }   /* NO — kecil */
-#tabel-pendonor th:nth-child(2) { width: 67%; }  /* NAMA — paling lebar */
+#tabel-pendonor th:nth-child(1) { width: 13%; }  
+#tabel-pendonor th:nth-child(2) { width: 67%; }  
 #tabel-pendonor th:nth-child(3) { width: 20%; }
 
 #tabel-pendonor th{
@@ -267,10 +251,11 @@ th{
 
 .kotak-video1 video{
     width: 100%;
-    max-width: 600px;
+    max-width: 400px;
+    height: 160px;           
+    object-fit: cover;       
+    object-position: center; 
     border-radius: 12px;
-    outline: none;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
 }
 
 .kotak-video1 h1{
@@ -301,7 +286,7 @@ img{
     margin-top: 30px;
     margin-bottom: 140px;
     width: 80%;
-    height: 240px;
+    height: auto;
     max-width: 600px;
     border-radius: 12px;
     outline: none;
@@ -362,7 +347,7 @@ footer {
 .running-text {
     display: flex;
     white-space: nowrap;
-    animation: marquee 20s linear infinite;
+    animation: marquee 50s linear infinite;
     font-size: 1rem;
     font-weight: bold;
     color: gold;
@@ -388,11 +373,3 @@ footer {
     user-select: none; /* tidak bisa diselect */
 }
 
-.kotak-video1 video {
-    width: 100%;
-    width: 900px;
-    height: 160px;           /* tentukan tinggi tetap */
-    object-fit: cover;       /* video mengisi kotak tanpa distorsi */
-    object-position: center; /* posisi video di tengah */
-    border-radius: 12px;
-}
